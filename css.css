@@ -1,0 +1,231 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="ph.css">
+<style>
+
+.div1{height:10px;background-color:black;display:block;}
+.h{font-size:80px;text-align:center;background: -webkit-linear-gradient(#9e2, #513);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+padding: 0;
+    overflow: hidden;
+    background-color: #369502;
+}
+
+li {
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+div.fixed {
+  position: absolute;
+  top:1000;
+  bottom: 0;
+  right: 950PX;
+  width: 50px;
+}
+
+div.w2 {
+  position: absolute;
+  top:1000;
+  bottom: 0px;
+  right: 700PX;
+  width: 50px;
+}
+
+div.w3 {
+  position: absolute;
+  top:1000;
+  bottom: 0;
+  right: 450PX;
+  width: 50px;
+}
+div.w4 {
+  position: absolute;
+  top:1000;
+  bottom: 0;
+  right: 199PX;
+  width: 50px;
+}
+.el {
+  position: absolute;
+  top:180;
+  bottom: 0;
+  right: 199PX;
+  width: 150px;
+}
+
+.le {
+  position: absolute;
+  top:680;
+  left:50;
+  bottom: 0;
+  right: 199PX;
+  width: 150px;
+}
+
+footer {
+  text-align: ;
+  padding-bottom: 100px;
+  background-color: black;
+  color: white;
+  
+}
+
+img {
+  border: 5px solid #505;
+  
+}
+.p1 {width:500px;
+height:300px;
+  border: 0px solid black;
+  background-color: ;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: justify;
+}
+
+.p2 {width:500px;
+height:300px;
+  border: 0px solid black;
+  background-color: ;
+  padding-top: 200px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 430px;
+  text-align: justify;
+}
+.p3 {position:relative;
+left:0px;
+top:600px;
+height:500px;
+background-color:#1E356F;
+color:white;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: #743F7E;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+
+
+
+a.one:link, a.one:visited {
+  background-color: #FAE75B;
+  color: black;
+  border: 4px solid #9027D1;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  
+}
+
+a.one:hover, a.one:active {
+  background-color: green;
+  color: white;
+}
+
+
+.div2 {position:relative;
+left:0px;
+top:600px;
+background-color:#5CD1D5;
+color:white;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: 450px;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.p1234 {width:600px;
+height:200px;
+  border: 5px solid #5CD1D5;
+  background-color: ;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+div.side {
+  position: absolute;
+  top:400;
+  bottom: 0;
+  right: 300PX;
+  width: 50px;
+}
+
+.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+font-size:20;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+div.you {
+  position: absolute;
+  top:100;
+  bottom: 0;
+  right: 400PX;
+  width: 50px;
+}
+</style>
+</head>
+</html>

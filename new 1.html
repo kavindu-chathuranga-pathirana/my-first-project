@@ -1,0 +1,127 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="ph.css">
+<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" type="text/css" href="seach.css">
+<style>
+
+footer {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+<li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  
+  
+</ul>
+
+
+<h1 class="h"> welcome to srilankan tourism</h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="3.JPEG" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="1.JPEG" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="10.JPEG" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="8.JPEG" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div class="fixed"><a href="widlife.html"><img src="w1.jpg" >widlife</a></div>
+<div class="w2"><a href="buddhist.html"><img src="w2.jpg" >buddhist_festival</a></div>
+<div class="w3"><a href="food.html"><img src="w3.jpg" >srilankan_food</a></div>
+<div class="w4"><a href="forest.html"><img src="w4.jpg" >forest</a></div>
+
+<div class="p3"> 
+<h1 align=center style="font-size:7vw">PLAN YOUR HOLY DAY</h1>
+
+<div class="btn-group">
+  <button onclick="document.location='agent.html'">find a travel agent</button>
+  <button onclick="document.location='https://www.hometogo.com/hotel/53d773decb6a5?adword=google%2Frowe%2Fkwd-20405239514%2Fct%3Dhs%3Blc%3Dst%3Bd%3Ddt%3Btc%3DROWE%3Bln%3Den%3Bot%3DHot%3Blt%3Dab%3Bmt%3Dbm%3Bcid%3D9427e3d5f5c92700%2Flk%2Fn-a%2F53d773decb6a5%2F456186245020%2F%2Bhotel%20%2Bsri%20%2Blanka&c=USD&gclid=Cj0KCQjwweyFBhDvARIsAA67M735xxoGYVUhj5eZRkqfzTHTU68UbLpugdGGV6wswF4uUeYDF-cV4MMaAoPsEALw_wcB&hl=en_GB'">booking a hotels</button>
+  <button onclick="document.location='https://eta.gov.lk/slvisa/'">apply online visa</button>
+  <button onclick="document.location='https://srilankacab949.wixsite.com/srilankacab?gclid=Cj0KCQjwnueFBhChARIsAPu3YkSJL2kbZPDW6W2KOi1Hrv-0YREEqznufbpXy6eNHjYGz2J_5KrV76oaAu8ZEALw_wcB'">find a taxsi</button>
+  <button onclick="document.location='agent.html'">camping placess</button>
+  
+  
+</div>
+<div class="you">
+<iframe width="420" height="345" src="https://www.youtube.com/embed/MI3_JaOIRJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+</div>
+
+<div class="div2">
+<h1 align=center style="font-size:7vw">DOWN SOUTH SRILANKA</h1>
+<a href="down.html"><img src="KGR.jpg" width="1000" height="345"></a>
+
+
+</div>
+
+
+
+</body>
+</html>
